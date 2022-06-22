@@ -1,0 +1,99 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Merriweather', serif;
+    src: url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');
+}
+
+body {
+   background-image: linear-gradient(to right, #3378ff, #9442fe);
+}
+
+header {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: rgba(0, 0, 0, 0.7);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+    margin: auto;
+    position: center;
+    width: 290px;
+    height: 50px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 12pt;
+}
+section {
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 250px;
+    height: 390px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+form {
+    padding: 15px;
+    margin-top: -15px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+input {
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    border-color: #3378ff;
+}
+
+input:hover {
+    border-color: #9442fe;
+}
+
+input[type=submit] {
+    text-align: center;
+    width: 50%;
+    padding: 8px 8px 8px 8px;
+    position: relative;
+    margin-left: 26%;
+    background-color: #3378ff;
+    color: white;
+}
+
+input[type=submit]:hover {
+    background-color: #9442fe;
+    border-color: #9442fe;
+}
+
+footer {
+    text-align: center;
+    margin-top: 10px;
+}
+
+a#copy {
+    color: black;
+    text-decoration: none;
+}
+
+a#copy:hover {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+div#error {
+    margin: auto;
+    text-align: center;
+    padding: 2px;
+    color: red;
+    border-radius: 5px;
+    margin-bottom: px;
+}
+
+div#errorpassword {
+    margin: auto;
+    text-align: center;
+    padding: 2px;
+    color: red;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    
+}
