@@ -21,6 +21,7 @@ header {
     border-top-right-radius: 10px;
     font-size: 12pt;
 }
+/*section with the form*/
 section {
     background-color: rgba(255, 255, 255, 0.8);
     width: 250px;
@@ -32,7 +33,7 @@ section {
     border-bottom-right-radius: 10px;
 
 }
-
+/*form config*/
 form {
     padding: 15px;
     margin-top: -15px;
@@ -64,7 +65,7 @@ input[type=submit]:hover {
     background-color: #9442fe;
     border-color: #9442fe;
 }
-
+/*fooer config*/
 footer {
     text-align: center;
     margin-top: 10px;
@@ -78,7 +79,7 @@ a#copy {
 a#copy:hover {
     color: rgba(0, 0, 0, 0.7);
 }
-
+/*divs for js return config*/
 div#error {
     margin: auto;
     text-align: center;
